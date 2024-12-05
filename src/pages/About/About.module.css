@@ -1,0 +1,58 @@
+.about {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+.about h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.about span {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.about p {
+  color: #aaa;
+  margin-bottom: 2em;
+  font-size: 1.1em;
+}
+
+.about a {
+  display: block;
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: #1a8918;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.about a:hover {
+  background-color: #0f730c;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .about {
+    padding: 0.5em;
+  }
+
+  .about h2 {
+    font-size: 1.6em; /* Ajusta o tamanho do título em telas pequenas */
+  }
+
+  .about p {
+    font-size: 1em; /* Ajusta o tamanho da fonte para o parágrafo */
+  }
+
+  .about a {
+    padding: 8px 12px; /* Ajusta o padding do botão em telas pequenas */
+  }
+}

@@ -1,0 +1,50 @@
+.search_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+
+.search_container h1 {
+  margin-bottom: 1em;
+  font-size: 2em; /* Ajuste o tamanho do título */
+}
+
+.search_container p {
+  margin-bottom: 30px;
+  font-size: 1.1em; /* Ajuste o tamanho do parágrafo */
+  text-align: center;
+}
+
+.search_container input {
+  padding: 10px;
+  margin-bottom: 1em;
+  width: 100%;
+  max-width: 500px; /* Limita a largura máxima do campo de busca */
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .search_container {
+    padding: 0.5em;
+  }
+
+  .search_container h1 {
+    font-size: 1.8em; /* Ajusta o tamanho da fonte do título em telas pequenas */
+  }
+
+  .search_container p {
+    font-size: 1em; /* Ajusta o tamanho da fonte para o parágrafo */
+  }
+
+  .search_container input {
+    padding: 8px;
+    font-size: 0.9em;
+    max-width: 100%; /* O campo de busca ocupa toda a largura disponível */
+  }
+}
+

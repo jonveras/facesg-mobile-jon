@@ -1,0 +1,82 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em 0;
+}
+
+.search_form {
+  max-width: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column; /* Alinha os itens em coluna */
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.search_form input {
+  margin-bottom: 10px; /* Adiciona espaçamento entre o input e o botão */
+  width: 100%; /* Faz o input ocupar toda a largura */
+  padding: 10px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.search_form button {
+  padding: 12px 25px;
+  background-color: #3182ce;
+  color: white;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%; /* Faz o botão ocupar toda a largura */
+}
+
+.search_form button:hover {
+  background-color: #2b6cb0;
+}
+
+.noposts {
+  text-align: center;
+}
+
+.noposts p {
+  margin-bottom: 1.5em;
+  font-size: 1.2em;
+}
+
+.noposts a {
+  padding: 12px 25px;
+  background-color: #3182ce;
+  color: white;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.noposts a:hover {
+  background-color: #2b6cb0;
+}
+
+@media (max-width: 768px) {
+  .home {
+    padding: 1.5em 0;
+  }
+
+  .search_form {
+    width: 90%; /* Aumenta a largura do formulário em telas menores */
+  }
+
+  .search_form input {
+    width: 100%; /* O input agora ocupa toda a largura disponível */
+  }
+
+  .noposts p {
+    font-size: 1.1em;
+  }
+}

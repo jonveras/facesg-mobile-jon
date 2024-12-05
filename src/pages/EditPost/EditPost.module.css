@@ -1,0 +1,94 @@
+.edit_post {
+  text-align: center;
+  padding: 2em;
+}
+
+.edit_post h2 {
+  font-size: 2.2em;
+  margin-bottom: 0.5em;
+}
+
+.edit_post p {
+  color: #aaa;
+  margin-bottom: 2em;
+  font-size: 1.1em;
+}
+
+.edit_post .preview_title {
+  margin-bottom: 0.5em;
+  color: #000;
+  font-weight: bold;
+}
+
+.image_preview {
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 1em;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 1.5em;
+}
+
+input, textarea {
+  width: 80%;
+  padding: 12px;
+  font-size: 1em;
+  margin-top: 0.3em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input:focus, textarea:focus {
+  border-color: #3182ce;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+button {
+  margin-top: 1.5em;
+  padding: 12px 25px;
+  background-color: #3182ce;
+  color: white;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2b6cb0;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.error {
+  color: red;
+  margin-top: 1.5em;
+}
+
+@media (max-width: 768px) {
+  .edit_post {
+    padding: 1.5em;
+  }
+
+  input, textarea {
+    width: 90%;
+  }
+
+  .image_preview {
+    max-width: 100%;
+  }
+}

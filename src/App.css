@@ -1,0 +1,15 @@
+.container {
+  min-height: 60vh;
+  margin-bottom: 5em;
+  padding: 16px;
+  background-color: #f9f9f9;  /* Adicione um fundo claro para destacar as seções */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Pequena sombra para destacar o conteúdo */
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+    margin-bottom: 3em;
+  }
+}

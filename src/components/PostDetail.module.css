@@ -1,0 +1,51 @@
+.post_detail {
+  margin-bottom: 2em;
+  padding: 1em;
+}
+
+.post_detail img {
+  max-width: 100%; /* Garante que a imagem ocupe 100% da largura disponível */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+.post_detail h2 {
+  margin-bottom: 0.4em;
+  font-size: 1.6em; /* Ajusta o tamanho da fonte para que seja legível */
+}
+
+.post_detail .tags {
+  margin-bottom: 1.2em;
+  display: flex;
+  flex-wrap: wrap; /* Permite que as tags quebrem para a linha seguinte, se necessário */
+}
+
+.tags p {
+  margin-right: 0.5em;
+  margin-bottom: 0.5em; /* Adiciona um pequeno espaçamento entre as tags na linha seguinte */
+}
+
+.tags span {
+  font-weight: bold;
+}
+
+.createdby {
+  font-style: italic;
+  color: #444;
+  font-size: 0.8em;
+  margin-bottom: 1em;
+}
+
+/* Responsividade para telas pequenas */
+@media (max-width: 768px) {
+  .post_detail h2 {
+    font-size: 1.4em; /* Ajusta o tamanho da fonte do título em telas pequenas */
+  }
+
+  .createdby {
+    font-size: 0.9em; /* Ajusta o tamanho da fonte para o texto "por: ..." em telas pequenas */
+  }
+
+  .tags p {
+    font-size: 0.9em; /* Ajusta o tamanho das tags em telas pequenas */
+  }
+}
