@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/facesg-mobile-jon/static/css/main.67ff0ff9.css",
+    "main.js": "/facesg-mobile-jon/static/js/main.a0984943.js",
+    "static/js/453.75fbf791.chunk.js": "/facesg-mobile-jon/static/js/453.75fbf791.chunk.js",
+    "index.html": "/facesg-mobile-jon/index.html",
+    "main.67ff0ff9.css.map": "/facesg-mobile-jon/static/css/main.67ff0ff9.css.map",
+    "main.a0984943.js.map": "/facesg-mobile-jon/static/js/main.a0984943.js.map",
+    "453.75fbf791.chunk.js.map": "/facesg-mobile-jon/static/js/453.75fbf791.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67ff0ff9.css",
+    "static/js/main.a0984943.js"
+  ]
+}
